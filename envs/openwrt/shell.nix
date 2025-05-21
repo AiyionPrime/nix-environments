@@ -28,6 +28,7 @@ let
       openssl
       patch
       perl
+      perlPackages.FileFinder
       pkg-config
       (python3.withPackages (ps: [ ps.setuptools ]))
       rsync
