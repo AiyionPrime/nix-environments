@@ -28,6 +28,7 @@ let
       openssl
       patch
       perl
+      perlPackages.ExtUtilsMakeMaker
       perlPackages.FileFinder
       pkg-config
       (python3.withPackages (ps: [ ps.setuptools ]))
